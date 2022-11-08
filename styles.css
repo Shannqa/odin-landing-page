@@ -45,10 +45,19 @@
 .quote-box {
   background-color: #E5E7EB;
   color: #1F2937;
+  width: 1000px;
+  padding: 100px;
+}
+
+blockquote {
   font-size: 36px;
   font-style: italic;
 }
-
+.author {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: right;
+}
 /* CALL BOX */
 .call-box {
   background-color: #3882F6;
