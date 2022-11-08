@@ -52,8 +52,28 @@
 /* CALL BOX */
 .call-box {
   background-color: #3882F6;
+  color: #F9FAF8;
+  width: 1400px;
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  }
+.call-header {
+  font-size: 32px;
+  font-weight: bolder;
+}
+.call-text {
+  font-size: 24px;
 }
 
+.call-button {
+  font-size: 24px;
+  font-weight: bolder;
+  border: 3px #F9FAF8 solid;
+  border-radius: 8px;
+  padding: 8px 40px;
+}
 /* FOOTER */
 .footer-box {
   background-color: #1F2937;
