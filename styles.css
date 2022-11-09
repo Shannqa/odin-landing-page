@@ -19,6 +19,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .hero-box {
   width: 1100px;
 }
@@ -31,12 +32,30 @@ body {
   padding: 20px;
 }
 
+.header-link a, a:link, a:visited, a:hover, a:active {
+  color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header-logo {
+  color: #F9FAF8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
 .hero-content {
   display: flex;
   justify-content: space-between;
-  margin: 100px 0;
+  margin-top: 80px;
+  margin-bottom: 120px;
   padding: 20px;
   width: 1100px;
+}
+
+.hero-left {
+  margin-right: 30px;
 }
 
 .hero-main {
@@ -50,28 +69,6 @@ body {
   font-size: 18px;
 }
 
-.hero-image {
-  background-color: rgb(115, 135, 151);
-  width: 570px;
-  height: 220px;
-  color: #E5E7EB;
-  font-size: 18px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-link {
-  color: #E5E7EB;
-  font-size: 18px;
-  
-}
-
-.header-logo {
-  color: #F9FAF8;
-  font-size: 24px;
-}
-
 .hero-button {
   font-size: 18px;
   font-weight: bolder;
@@ -83,24 +80,38 @@ body {
   color: #F9FAF8;
 }
 
+.hero-image {
+  background-color: rgb(102, 115, 126);
+  width: 520px;
+  height: 240px;
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 /* INFO BOX */
 
 .info-box {
   color: #1F2937;
   display: flex;
   flex-direction: column;
-  margin: 100px;
+
 }
 
 .info-header {
   font-size: 36px;
   font-weight: bolder;
   text-align: center;
+  margin: 40px 0;
 }
 
 .cards {
   display: flex;
   justify-content: center;
+  margin-bottom: 80px;
 }
 .info-card {
   width: 160px;
@@ -114,11 +125,8 @@ body {
   width: 150px;
   border-radius: 12px;
   padding: 5px;
+  margin-bottom: 8px;
 }
-
-
-
-
 
 /* QUOTE BOX */
 
@@ -128,55 +136,54 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .quote-box {
   color: #1F2937;
   width: 1000px;
   padding: 100px;
 }
-
 blockquote {
   font-size: 36px;
   font-style: italic;
+  font-weight: 0;
 }
 .author {
   font-size: 26px;
   font-weight: bold;
   text-align: right;
 }
+
 /* CALL BOX */
 .call-box {
   margin: 100px 0;
   background-color: #3882F6;
   color: #F9FAF8;
   width: 1000px;
-  padding: 50px;
+  padding: 50px 40px;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
-  }
+}
 .call-header {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: bolder;
 }
 .call-text {
-  font-size: 24px;
+  font-size: 18px;
 }
-
 .call-button {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bolder;
-  border: 3px #F9FAF8 solid;
+  border: 2px #F9FAF8 solid;
   border-radius: 8px;
   padding: 8px 40px;
 }
+
 /* FOOTER */
 .footer-box {
   background-color: #1F2937;
   color: #F9FAF8;
-  font-size: 24px;
-  padding: 50px;
+  font-size: 18px;
+  padding: 40px;
   text-align: center;
   width: 100%;
-
 }
